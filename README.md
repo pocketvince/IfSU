@@ -8,7 +8,7 @@ If a change is detected, IFSU can execute a user-specified command.
 ## Usage
 
 ```bash
-./ifsu.sh URL COMMAND INTERVAL
+./ifsu.sh URL "COMMAND" INTERVAL
 ```
 • URL: The URL of the website to monitor.
 
@@ -16,8 +16,33 @@ If a change is detected, IFSU can execute a user-specified command.
 
 • INTERVAL: The time interval (in seconds) for checking the website.
 
-## Notes
-20231029: Doesn't seem to work properly on sites with dynamic content (cookie analysis, video, ads, etc.), need to add a switch and another method for this type of site
+## Input Example:
+
+• Monitor the price of an item on a sales site
+
+• Follow the evolution and changes of a specific news article
+
+• Know about a new element on a site that does not have RSS
+
+• Follow the reactivation of a temporarily unavailable site
+
+...
+
+## Output Example:
+
+• Trigger a download
+
+• Sending an automatic email
+
+• Adding a task in Notion.so
+
+• Starting an upload
+
+• Shutting down a machine
+
+• Notification on Telegram
+
+...
 
 ## Contributing
 
