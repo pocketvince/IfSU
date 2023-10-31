@@ -1,3 +1,5 @@
+![Alt text](https://raw.githubusercontent.com/pocketvince/Ifsu/main/ifsu_transparent.png?raw=true "logo")
+
 # IFSU (IF a Site has been Updated)
 IFSU is a command-line tool for monitoring updates or content changes on a specific website.
 
@@ -47,3 +49,4 @@ If a change is detected, IFSU can execute a user-specified command.
 ## Contributing
 
 Readme generator: https://www.makeareadme.com/
+Logo: https://openai.com/dall-e-2
